@@ -30,11 +30,11 @@
 						<nav>
 							<ul>
 								<li><a href="#projects">Projects</a></li>
-								<li><a href="#resume">Resume</a></li>
+								<li><a href="https://drive.google.com/file/d/1jzHJdnqMFr4eI_-2OFnazW6_EAiAgrGs/view?usp=sharing">Resume</a></li>
 								<li><a href="#about">About</a></li>
 								<li><a href="#contact">Contact</a></li>
 
-								<!--<li><a href="#elements">Elements</a></li>-->
+								<li><a href="#elements">Elements</a></li>
 							</ul>
 						</nav>
 					</header>
@@ -45,22 +45,46 @@
 						<!-- Projects -->
 							<article id="projects">
 								<h2 class="major">Projects</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-							</article>
-
-						<!-- Resume -->
-							<article id="resume">
-								<h2 class="major">Resume</h2>
-								<span class="image main"><img src ="images/NicoleBerg_Resume_2021.jpg" alt="" /></span>
-								<p><a href="https://drive.google.com/file/d/1uCC1qj6145pwWTgxOzk5gGdf1xwRr1Jv/view?usp=sharing" class="button">Download Resume</a></p>
+								<style>
+									* {
+									  box-sizing: border-box;
+									}
+									
+									/* Create two equal columns that floats next to each other */
+									.column {
+									  float: left;
+									  width: 50%;
+									  padding: 10px;
+									  height: 300px; /* Should be removed. Only for demonstration */
+									}
+									
+									/* Clear floats after the columns */
+									.row:after {
+									  content: "";
+									  display: table;
+									  clear: both;
+									}
+									</style>
+								
+								<!-- Section 1 --> 
+									<div class="row">
+										<div class="column">
+											<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+											<p>Lorem ipsum dolor sit amet,  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+											<p><a href="https://github.com/nberg1/nberg1.github.io/tree/main/CDN_Networking/cs5700_project5-master" class="button">See GitHub Repository</a></p>			
+										</div>
+										<div class="column">
+											<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+											<p>Lorem ipsum dolor sit amet. </p>
+											<p><a href="https://github.com/nberg1/nberg1.github.io/tree/main/CDN_Networking/cs5700_project5-master" class="button">See GitHub Repository</a></p>			
+										</div>
+									</div>
 							</article>
 
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About</h2>
-								<span class="image right"><img src="images/about_image.jpg" alt="" /></span>
+								<span class="image main"><img src="images/professional_photo.jpg" alt="" /></span>
 								<p>I'm a motivated computer science graduate student at Northeastern University currently looking for work opportunities in the technology industry that will help me gain experience in this field as I work towards a full-time career in Computer Science.</p>
 							</article>
 
@@ -322,7 +346,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; Nicole Berg. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>

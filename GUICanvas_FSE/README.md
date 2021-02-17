@@ -1,4 +1,4 @@
-*Collaborative Canvas Application
+**Collaborative Canvas Application
 
 Note on project code availability: 
 
